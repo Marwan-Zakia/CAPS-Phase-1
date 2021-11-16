@@ -1,4 +1,40 @@
 'use strict';
+
+// jest.useFakeTimers();
+// describe('Logger Middleware', () => {
+// let consoleSpy;
+// beforeEach(() => {
+//  consoleSpy = jest.spyOn(console, 'log').mockImplementation();
+//     });
+// test('all',async(done)=>{  
+// setTimeout(()=>{
+// const caps=  require('../caps');
+// let order ={
+//     customer:'name',
+//     address : "address",
+//     store:"store",
+//     orderID: "orderID"}
+//      caps.emit('pickup',order)
+//       consoleSpy()
+//      expect(consoleSpy).toHaveBeenCalled()
+// // expect(caps.emit('pickup',order)).toBeTruthy();
+// },2000)
+
+// })
+// })
+// let consoleSpy;
+// let req = {}; 
+// let res = {}; 
+// let next = jest.fn(); 
+
+
+
+// afterEach(() => {
+//   consoleSpy.mockRestore();
+// });
+//typeof caps.pickup
+// expect().not.toBeCalled()
+
 // require('../caps')
 // require('../vendor/vandor')
 // require('../drivers/driver')
@@ -13,17 +49,18 @@
 //     let next = jest.fn();
 
 /*  I couldn't find the right test method */
-    test('check if todays is ran ', () => {
-        // require('../caps')
-        // require('../vendor/vandor')
-        // require('../drivers/driver')
+    // test('check if todays is ran ', () => {
+    //     require('../caps')
+    //     require('../vendor/vandor')
+    //     require('../drivers/driver')
         
-        // jest.mock('../caps')
-        // jest.mock('../vendor/vandor')
-        // jest.mock('../drivers/driver')
-        // //  expect().toBeTruthy();  
-        //  expect(caps).toHaveBeenCalled(); 
-    });
+    //     jest.mock('../caps')
+    //     jest.mock('../vendor/vandor')
+    //     jest.mock('../drivers/driver')
+    //     //  expect().toBeTruthy();  
+    //     // caps.emit(,order)
+    //      expect('in-transit').toBeTruthy();
+    // });
     
  
 // // const events = require('../events');
@@ -63,7 +100,6 @@
 // //  expect(events).toHaveBeenCalled();   
 // //  expect(mockFn.getMockName()).toBeTruthy();   
 // //  expect(pickup()).toHaveBeenCalled();   
-
   
 // //     jest.mock('../Vendor')
 // // it('should use the default mock implementation', () => {
